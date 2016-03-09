@@ -1,0 +1,22 @@
+{
+  "name": "karma-debug-and-browsersync",
+  "version": "1.0.0",
+  "description": "Setup Gulp to open Karma debug page directly",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "gulp"
+  },
+  "author": "Eduard Fidiles",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.2",
+    "karma-mocha-reporter": "^2.0.0",
+    "mocha": "^2.4.5"
+  }
+}
